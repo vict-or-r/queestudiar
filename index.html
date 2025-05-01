@@ -3,39 +3,66 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>🌟 Test Vocacional Dinámico</title>
+  <title>🌟 Test Vocacional</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+<div class="container text-center my-5">
+  <h2 class="mb-3">🔎 Buscador de Cursos</h2>
+  <input type="text" id="buscador-global" class="form-control"
+         placeholder="Escribe y presiona ENTER para buscar en todo el catálogo">
+</div>
+
+<div class="container mt-4 d-none" id="resultados-busqueda"></div>
+
+
   <div class="container text-center">
     <div id="pantalla-inicio">
       <h1 class="mb-4">🎯 Bienvenido al Test Vocacional</h1>
-      <p class="lead">Descubre en qué áreas destacas y cuál es tu perfil ideal. ¡Prepárate para conocerte mejor! 🌟</p>
+      <p class="lead">Descubre en qué destacas y tu perfil ideal. 🌟</p>
       <button class="btn btn-success mt-4" onclick="iniciarTest()">🚀 Empezar Test</button>
     </div>
 
     <div id="pantalla-preguntas" class="hidden">
       <h2 class="mb-3">🧠 Test Vocacional</h2>
-      <div class="progress-count" id="progress-count"></div>
+      <div id="progress-count" class="progress-count"></div>
       <div class="progress mb-3">
         <div id="progress-bar" class="progress-bar" style="width:0%;"></div>
       </div>
-      <div id="question-container">
-        <h4 id="question" class="mb-4"></h4>
-        <div id="options" class="d-grid gap-2"></div>
-      </div>
-      <button class="btn btn-warning mt-3" id="volver-btn" onclick="volverPregunta()" style="display: none;">🔙 Volver</button>
-      <button class="btn btn-danger mt-3" id="terminar-btn" onclick="mostrarResultado(true)">⏹ Terminar ahora</button>
+      <h4 id="question" class="mb-4"></h4>
+      <div id="options" class="d-grid gap-2"></div>
+      <button class="btn btn-warning mt-3" id="volver-btn" onclick="volverPregunta()">🔙 Volver</button>
+      <button class="btn btn-danger mt-3" onclick="mostrarResultado(true)">⏹ Terminar ahora</button>
     </div>
 
     <div id="pantalla-resultado" class="hidden">
       <h2 class="mb-4" id="titulo-resultado">🏆 Resultado del Test</h2>
-      <div id="result-summary" class="mb-4"></div>
-      <button class="btn btn-primary" onclick="reiniciar()">🔄 Volver al Inicio</button>
+      <div id="result-summary"></div>
+      <button class="btn btn-primary mt-4" onclick="reiniciar()">🔄 Reiniciar Test</button>
     </div>
   </div>
 
-  <script src="script.js"></script>
+<div class="container mt-5 text-center" id="bloque-cursos">
+  <h2 class="mb-4">📘 Explora Estudios Disponibles</h2>
+
+  <div id="pantalla-etapas">
+    <h4>Selecciona una etapa educativa:</h4>
+    <div id="etapas" class="d-flex flex-wrap justify-content-center gap-2"></div>
+  </div>
+
+  <div id="pantalla-familias" class="hidden">
+    <h4>🔍 Selecciona una familia profesional:</h4>
+    <div id="familias" class="d-flex flex-wrap justify-content-center gap-2"></div>
+    <button class="btn btn-secondary mt-3" onclick="volverEtapas()">🔙 Volver</button>
+  </div>
+
+  <div id="pantalla-cursos" class="hidden">
+    <h4>🎓 Cursos disponibles:</h4>
+    <div id="cursos" class="row"></div>
+    <button class="btn btn-secondary mt-3" onclick="volverFamilias()">🔙 Volver</button>
+  </div>
+</div>
+ <script src="script.js"></script>
 </body>
 </html>
