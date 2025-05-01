@@ -4,6 +4,7 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .container {
   max-width: 700px;
   margin: 50px auto;
@@ -12,33 +13,60 @@ body {
   border-radius: 20px;
   box-shadow: 0 8px 16px rgba(0,0,0,0.2);
   animation: fadeIn 0.6s ease;
-  -webkit-animation: fadeIn 0.6s ease;
 }
+
 .option-btn {
   padding: 15px 20px;
   font-size: 18px;
   border-radius: 12px;
 }
+
 .option-btn:hover {
   background-color: #0288d1;
   color: white;
 }
+
 .selected {
   background-color: #4dabf7;
   color: white;
 }
+
 .hidden {
   display: none;
 }
+
 .progress-count {
   font-weight: bold;
   margin-bottom: 10px;
 }
-@-webkit-keyframes fadeIn {
-  from { opacity: 0; -webkit-transform: translateY(20px); }
-  to { opacity: 1; -webkit-transform: translateY(0); }
-}
+
 @keyframes fadeIn {
   from { opacity: 0; transform: translateY(20px); }
   to { opacity: 1; transform: translateY(0); }
+}
+#buscador-global {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 14px 20px;
+  font-size: 16px;
+  border-radius: 12px;
+  border: 2px solid #80deea;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+#resultados-busqueda {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+.card h5 {
+  font-weight: 600;
+}
+
+.card .card-text {
+  font-size: 0.95rem;
+}
+
+.card .text-muted {
+  font-size: 0.85rem;
 }
