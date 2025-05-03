@@ -1,68 +1,152 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
-  <title>🌟 Test Vocacional</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que Estudiar - Tu Orientador Vocacional</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="favicon.png" type="image/png">
 </head>
 <body>
-<div class="container text-center my-5">
-  <h2 class="mb-3">🔎 Buscador de Cursos</h2>
-  <input type="text" id="buscador-global" class="form-control"
-         placeholder="Escribe y presiona ENTER para buscar en todo el catálogo">
-</div>
+    <header class="app-header">
+        <h1 id="app-title" style="cursor:pointer;" title="Ir a Inicio"><span class="emoji">🧭</span> Que Estudiar</h1>
+    </header>
 
-<div class="container mt-4 d-none" id="resultados-busqueda"></div>
+    <main class="main-container">
+        <div class="container-content">
 
+            <!-- Pantalla de Inicio -->
+            <section id="home">
+                <!-- Buscador Integrado -->
+                <div class="card search-integrated-card">
+                    <h2><span class="emoji">🔎</span> Encuentra tu Estudio Ideal</h2>
+                    <p>Explora nuestra base de datos de estudios. Puedes buscar por nombre (ej: "Medicina"), familia profesional (ej: "Informática", "Hostelería"), etapa educativa (ej: "FP Superior", "Grado Universitario") o palabras clave relacionadas (ej: "programar", "cocinar", "diseñar").</p>
+                    <div class="search-wrapper">
+                        <input type="text" id="search-input" placeholder="Busca un curso, familia o etapa..." aria-label="Buscar cursos">
+                        <button id="search-button" class="search-button" title="Buscar"><span class="emoji">🔍</span></button>
+                    </div>
+                    <div id="search-results-display" class="results-container search-results-integrated" style="display: none;">
+                         <div class="search-results-header">
+                            <h4>Resultados de tu búsqueda:</h4>
+                            <button id="close-search-button" class="close-button" title="Cerrar búsqueda">×</button>
+                         </div>
+                        <ul id="search-results-list">
+                            <!-- Resultados dinámicos aquí -->
+                        </ul>
+                    </div>
+                </div>
 
-  <div class="container text-center">
-    <div id="pantalla-inicio">
-      <h1 class="mb-4">🎯 Bienvenido al Test Vocacional</h1>
-      <p class="lead">Descubre en qué destacas y tu perfil ideal. 🌟</p>
-      <button class="btn btn-success mt-4" onclick="iniciarTest()">🚀 Empezar Test</button>
-    </div>
+                 <!-- Test Vocacional -->
+                <div class="card welcome-card gradient-background">
+                     <h2><span class="emoji">🎯</span> Test Vocacional Interactivo</h2>
+                     <p>¿Indeciso/a sobre tu futuro académico? ¡Estás en el lugar correcto! Nuestro test te ayudará a descubrir tus inclinaciones. A través de preguntas sobre lo que te gusta y se te da bien, identificaremos tus perfiles vocacionales dominantes y te sugeriremos estudios acordes. ¡Emprende el viaje hacia tu vocación!</p>
+                     <button id="start-test-button" class="start-button large-button" title="Iniciar el test vocacional" disabled><span class="emoji">⏳</span> Cargando Test...</button>
+                </div>
+            </section>
 
-    <div id="pantalla-preguntas" class="hidden">
-      <h2 class="mb-3">🧠 Test Vocacional</h2>
-      <div id="progress-count" class="progress-count"></div>
-      <div class="progress mb-3">
-        <div id="progress-bar" class="progress-bar" style="width:0%;"></div>
-      </div>
-      <h4 id="question" class="mb-4"></h4>
-      <div id="options" class="d-grid gap-2"></div>
-      <button class="btn btn-warning mt-3" id="volver-btn" onclick="volverPregunta()">🔙 Volver</button>
-      <button class="btn btn-danger mt-3" onclick="mostrarResultado(true)">⏹ Terminar ahora</button>
-    </div>
+            <!-- Pantalla Test Interactivo -->
+            <section id="interactive-test" style="display: none;">
+                 <div class="card test-card interactive-test-card">
+                    <div class="test-header">
+                       <h2 id="test-title">Descubriendo tu Vocación</h2>
+                       <div id="test-progress" class="progress-text">Calculando progreso...</div>
+                       <div class="progress-container"><div id="progress-bar" class="progress-bar"></div></div>
+                       <p style="font-size: 0.85rem; text-align: center; margin-top: 10px; color: #047857;">Elige la opción que más te identifique. ¡Tu sinceridad es la clave para un buen resultado!</p>
+                    </div>
+                    <form id="interactive-test-form">
+                        <div id="interactive-question-display" class="question-fade-container">
+                            <!-- Preguntas se cargan aquí -->
+                        </div>
+                    </form>
+                    <div class="test-actions">
+                         <button id="exit-test-button" class="back-button small-button" title="Salir y perder progreso"><span class="emoji">🚪</span> Salir del Test</button>
+                         <button id="finish-test-button" class="nav-button finish small-button" title="Ver resultados con respuestas actuales"><span class="emoji">📊</span> Ver Resultados Ya</button>
+                    </div>
+                 </div>
+            </section>
 
-    <div id="pantalla-resultado" class="hidden">
-      <h2 class="mb-4" id="titulo-resultado">🏆 Resultado del Test</h2>
-      <div id="result-summary"></div>
-      <button class="btn btn-primary mt-4" onclick="reiniciar()">🔄 Reiniciar Test</button>
-    </div>
-  </div>
+            <!-- Pantalla Resultados Parciales -->
+             <section id="partial-results" style="display: none;">
+                 <div class="card results-card partial-results-card">
+                    <h2><span class="emoji">🧭</span> Primera Parada: Tus Perfiles Predominantes</h2>
+                    <p id="partial-results-info">Análisis inicial basado en tus respuestas.</p>
+                    <p class="results-subtitle" style="margin-bottom: 5px;">Estos son los perfiles que destacan en ti por ahora:</p>
+                    <ul id="partial-profiles-list" class="profiles-list">
+                        <!-- Perfiles -->
+                    </ul>
+                     <p id="partial-accuracy" class="accuracy-text">Fiabilidad basada en preguntas respondidas.</p>
+                     <div class="info-box light-blue">
+                        <p><span class="emoji">💡</span> ¡Ya tienes una pista! Estos perfiles muestran tus tendencias principales. Para obtener una visión completa, definir tu perfil dominante y ver estudios sugeridos, solo necesitas responder las **5 preguntas finales** de la Parte 2. ¡Adelante!</p>
+                     </div>
+                    <div class="partial-results-actions">
+                        <button id="continue-test2-button" class="continue-button large-button" title="Responder 5 preguntas más para afinar perfil"><span class="emoji">➡️</span> Ir a la Parte 2</button>
+                        <button id="restart-test-button" class="back-button" title="Empezar el test desde cero"><span class="emoji">🔄</span> Reiniciar Test</button>
+                    </div>
+                 </div>
+             </section>
 
-<div class="container mt-5 text-center" id="bloque-cursos">
-  <h2 class="mb-4">📘 Explora Estudios Disponibles</h2>
+            <!-- Pantalla Resultados Finales -->
+            <section id="final-results" style="display: none;">
+                 <div class="card results-card final-results-card">
+                    <h2 id="final-results-title">¡Tu Perfil Vocacional Definido!</h2>
+                    <h3 id="final-profile-info">Análisis final de tus intereses y aptitudes.</h3>
+                    <div class="final-results-content">
+                        <h4><span class="emoji">✨</span> Estudios Recomendados para tu Perfil <strong id="final-profile-name-results"></strong>:</h4>
+                        <p class="results-subtitle">¡Felicidades! Según tus respuestas, estas áreas formativas podrían encajar perfectamente contigo. Explora las tarjetas para descubrir más sobre cada opción y considera cuáles te motivan más.</p>
+                        <div id="recommended-courses-container" class="courses-grid">
+                             <!-- Tarjetas de curso recomendadas -->
+                        </div>
+                         <div id="no-final-courses-message" style="display: none;">
+                            <p class="no-results-message"></p> <!-- Mensaje se inserta aquí -->
+                         </div>
+                    </div>
+                     <div class="info-box light-green" id="final-results-guidance">
+                         <p><span class="emoji">💡</span> ¡Test completado! Usa estas sugerencias como inspiración. Son un buen punto de partida, pero la decisión final es tuya. Investiga más sobre lo que te interese y no dudes en usar el buscador para explorar cualquier otro estudio.</p>
+                     </div>
+                     <div style="text-align:center; margin-top: 25px;">
+                        <button id="go-home-final-button" class="start-button large-button">Volver al Inicio / Hacer otro Test</button>
+                     </div>
+                 </div>
+            </section>
 
-  <div id="pantalla-etapas">
-    <h4>Selecciona una etapa educativa:</h4>
-    <div id="etapas" class="d-flex flex-wrap justify-content-center gap-2"></div>
-  </div>
+             <!-- Modal Detalles Curso -->
+            <div id="course-details-modal" class="modal">
+                 <button id="close-modal-button" class="close-modal-button" title="Cerrar detalles">×</button>
+                 <div class="modal-content">
+                    <h3 id="modal-course-title">Detalles del Estudio</h3>
+                    <div class="modal-tags">
+                        <span id="modal-course-etapa" class="modal-tag etapa-tag">Etapa Educativa</span>
+                        <span id="modal-course-familia" class="modal-tag familia-tag">Familia Profesional</span>
+                    </div>
+                    <div class="modal-section">
+                        <p><strong><span class="emoji">ℹ️</span> Descripción Detallada:</strong></p>
+                        <p id="modal-course-desc-detallada" class="modal-text-block">Aquí encontrarás una explicación completa sobre este estudio: qué es, a quién va dirigido, objetivos principales...</p>
+                    </div>
+                     <div class="modal-section">
+                        <p><strong><span class="emoji">🧑‍🎓</span> ¿Qué vas a aprender?</strong></p>
+                        <p id="modal-course-aprender" class="modal-text-block">Descubre las materias clave, las habilidades prácticas y los conocimientos teóricos que adquirirás durante la formación.</p>
+                     </div>
+                     <div class="modal-section">
+                        <p><strong><span class="emoji">💼</span> Posibles Salidas Laborales:</strong></p>
+                        <p id="modal-course-salidas" class="modal-text-block">Explora los diferentes roles profesionales, sectores y tipos de empresas donde podrías trabajar al finalizar estos estudios.</p>
+                     </div>
+                    <p id="modal-course-frase-container" class="modal-frase-clave" style="display: none;">
+                        <em id="modal-course-frase">"Una frase que resume la esencia del estudio."</em>
+                    </p>
+                 </div>
+            </div>
 
-  <div id="pantalla-familias" class="hidden">
-    <h4>🔍 Selecciona una familia profesional:</h4>
-    <div id="familias" class="d-flex flex-wrap justify-content-center gap-2"></div>
-    <button class="btn btn-secondary mt-3" onclick="volverEtapas()">🔙 Volver</button>
-  </div>
+            <!-- Indicadores -->
+            <div id="loading" class="loading-indicator" style="display: block;">Cargando la aplicación... <span class="emoji">⏳</span></div>
+            <div id="error-message" class="error-message" style="display: none;"></div>
+        </div>
+    </main>
 
-  <div id="pantalla-cursos" class="hidden">
-    <h4>🎓 Cursos disponibles:</h4>
-    <div id="cursos" class="row"></div>
-    <button class="btn btn-secondary mt-3" onclick="volverFamilias()">🔙 Volver</button>
-  </div>
-</div>
- <script src="script.js"></script>
+    <div id="modal-backdrop" class="modal-backdrop"></div>
+
+    <script src="script.js"></script>
 </body>
 </html>
