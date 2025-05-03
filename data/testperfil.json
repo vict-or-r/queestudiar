@@ -1,0 +1,1545 @@
+[
+    {
+      "id": "stage1_q1",
+      "stage": 1,
+      "question": "¿Qué te gustaría hacer en un proyecto grupal?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Investigar y encontrar la mejor solución"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Hacer los diseños o presentaciones"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Encargarme de los materiales y montarlo"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Coordinar y motivar al equipo"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q2",
+      "stage": 1,
+      "question": "¿Con qué tipo de tareas disfrutas más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Observar, analizar, buscar patrones"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Imaginar historias, componer, dibujar"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Ayudar a alguien que necesita apoyo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Organizar información o documentos"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q3",
+      "stage": 1,
+      "question": "¿Qué te gustaría aprender más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Observar detalles, analizar información o aplicar lógica"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Inventar, diseñar o expresar ideas originales"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Cómo funciona el cuerpo humano"
+        },
+        {
+          "profile": "Social",
+          "text": "Cómo comunicar mejor con los demás"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Cómo se construyen edificios"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Cómo montar un negocio"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q4",
+      "stage": 1,
+      "question": "¿Cuál de estas frases te representa más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "“Me gusta entender cómo funciona todo”"
+        },
+        {
+          "profile": "Creativo",
+          "text": "“Siempre tengo ideas nuevas en la cabeza”"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "“Me encanta cuidar a los demás”"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "“Me gusta trabajar con las manos”"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "“Me gusta proponer ideas y tomar decisiones”"
+        },
+        {
+          "profile": "Organizado",
+          "text": "“Prefiero seguir instrucciones claras y bien estructuradas”"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "“Me gusta expresarme y hablar en público”"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q5",
+      "stage": 1,
+      "question": "¿Qué tipo de actividades te resultan más naturales?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Resolver problemas lógicos o matemáticos"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Diseñar cosas nuevas o escribir"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Acompañar y cuidar a alguien que lo necesita"
+        },
+        {
+          "profile": "Social",
+          "text": "Atender, cuidar o acompañar a personas"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Hablar en público o convencer a otros"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Escribir un texto o hablar delante de la clase"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q6",
+      "stage": 1,
+      "question": "¿Cómo te gusta trabajar?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Con retos mentales complejos"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Con libertad para explorar ideas"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Trabajar con personas, escuchándolas y apoyándolas"
+        },
+        {
+          "profile": "Social",
+          "text": "Con personas, escuchando y ayudando"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Dirigir un equipo hacia una meta"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Siguiendo un plan claro"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Transmitir una idea clara a los demás"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q7",
+      "stage": 1,
+      "question": "¿Qué tipo de entorno te atrae más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Un laboratorio o centro de investigación"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Un escenario o estudio creativo"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Un hospital o centro de salud"
+        },
+        {
+          "profile": "Social",
+          "text": "Un centro juvenil o cultural con personas diversas"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Una startup o espacio de emprendimiento"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Una oficina bien estructurada"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Una sala de prensa o redacción"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q8",
+      "stage": 1,
+      "question": "¿Cuál de estas imágenes te inspira más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Microscopio"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Bombilla creativa"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Corazón"
+        },
+        {
+          "profile": "Social",
+          "text": "Manos entrelazadas"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Rueda dentada o herramienta"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Gráfico de crecimiento"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Calendario o lista de tareas"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Micrófono o bocadillo de cómic"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q9",
+      "stage": 1,
+      "question": "¿Qué tipo de películas o series prefieres?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Misterio, ciencia, documentales"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Creatividad, fantasía, arte"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Drama humano, salud, emociones / Social"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Acción, construcción, mecánica"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Negocios, emprendimiento, liderazgo"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Series sobre gestión, trabajo en equipo"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Talk shows, debates, entrevistas"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q10",
+      "stage": 1,
+      "question": "¿Cómo reaccionas cuando algo no te sale bien?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Lo analizo para entender qué falló"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Busco una forma diferente de hacerlo"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Pido ayuda y apoyo emocional"
+        },
+        {
+          "profile": "Social",
+          "text": "Lo comparto con alguien para desahogarme"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Busco cómo mejorarlo con herramientas"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Evalúo cómo cambiar la estrategia"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Lo intento otra vez paso a paso"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Lo hablo o escribo para expresarlo mejor"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q11",
+      "stage": 1,
+      "question": "¿Qué harías con un día libre para ti solo/a?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Leer o mirar vídeos para aprender algo nuevo"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Escribir, grabar o crear algo"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Escuchar a alguien, acompañar a una persona"
+        },
+        {
+          "profile": "Social",
+          "text": "Hacer algo con y para otras personas"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Montar algo con herramientas"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Probar una idea de negocio o proyecto"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planear toda la semana"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Grabar un vídeo, podcast o hablar en redes"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q12",
+      "stage": 1,
+      "question": "¿Cómo te sientes más cómodo al comunicarte?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 1 – Preferencias Personales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Con palabras bien pensadas o textos / Organizado"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Usar imágenes, música, dibujos"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Hablando en directo o con emoción / Comunicativo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Hablar con visión y estrategia"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Escribirlo bien, paso a paso"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q13",
+      "stage": 1,
+      "question": "¿Qué asignatura disfrutas más en clase?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Matemáticas o Física / Técnico"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Plástica, Música o Literatura"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Biología o Ciencias Naturales / Ciencias de la salud"
+        },
+        {
+          "profile": "Social",
+          "text": "Historia o Filosofía / Humanidades"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q14",
+      "stage": 1,
+      "question": "¿Cuál de estas materias se te da mejor?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Química / Científico"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Inventar, diseñar o expresar ideas originales"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Tecnología / Ingeniería"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Economía o Empresa / Organizado"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Lengua o idiomas / Social"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q15",
+      "stage": 1,
+      "question": "¿Qué actividad disfrutas más en el cole/instituto?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Resolver problemas o puzzles / Técnico"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Dibujar, grabar vídeos, escribir"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Participar en debates o exposiciones"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q16",
+      "stage": 1,
+      "question": "¿Qué te llama más la atención en clase?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Resolver ecuaciones, cálculos"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Inventar, diseñar o expresar ideas originales"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "El funcionamiento del cuerpo, la salud / Ciencias"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Hacer cosas con las manos"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Los debates de actualidad y política / Humanidades"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q17",
+      "stage": 1,
+      "question": "¿En qué actividad escolar destacas más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Observar detalles, analizar información o aplicar lógica"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Escritura creativa, dibujo, edición"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Montaje de cosas prácticas"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Presentaciones bien estructuradas"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Exposiciones orales"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q18",
+      "stage": 1,
+      "question": "¿Qué no te importa repetir hasta que te salga bien?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Un problema lógico"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Un dibujo, diseño o coreografía"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Una explicación para alguien que no lo entiende"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Una maqueta o montaje"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q19",
+      "stage": 1,
+      "question": "¿Qué tipo de profesor/a te inspira más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "El que te reta a pensar"
+        },
+        {
+          "profile": "Creativo",
+          "text": "El que te deja crear y experimentar"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "El que te escucha y apoya / Social"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "El que organiza todo muy bien"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q20",
+      "stage": 1,
+      "question": "¿Qué trabajo te gustaría presentar en clase?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 2 – Afinidades Académicas / Escolares"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Un informe científico con datos"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Un corto o vídeo creativo"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Una propuesta de ayuda social"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Un proyecto de empresa o idea"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q21",
+      "stage": 1,
+      "question": "¿Qué tipo de personas admiras más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 3 – Sueños y Aspiraciones Profesionales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Científicos, médicos, investigadores / Cuidador"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Artistas, creadores, diseñadores"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Personas que ayudan o cuidan / Cuidador"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Líderes, emprendedores"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q22",
+      "stage": 1,
+      "question": "¿En qué proyecto te implicarías de inmediato?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 3 – Sueños y Aspiraciones Profesionales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Observar detalles, analizar información o aplicar lógica"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Hacer una campaña visual o artística"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Organizar una recogida solidaria / Cuidador"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Crear una app o prototipo / Analítico"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Montar un plan para una empresa o idea"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q23",
+      "stage": 1,
+      "question": "¿Cómo te gustaría que te recordaran?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 3 – Sueños y Aspiraciones Profesionales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Como alguien que resolvía problemas"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Como alguien que inspiraba a los demás"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Como alguien que ayudó a muchas personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Como alguien que organizaba y lideraba / Organizado"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q24",
+      "stage": 1,
+      "question": "¿Qué ambiente de trabajo te atrae más?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 3 – Sueños y Aspiraciones Profesionales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Tranquilo, de concentración y datos"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Estimulante, con ideas y cambios"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar, cuidar o apoyar a otras personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Social, con trato a personas"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Activo, de movimiento y montaje"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar, organizar o emprender proyectos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage1_q25",
+      "stage": 1,
+      "question": "¿Qué te motiva a largo plazo?",
+      "options": [
+        {
+          "profile": "Bloque",
+          "text": "BLOQUE 3 – Sueños y Aspiraciones Profesionales"
+        },
+        {
+          "profile": "Analítico",
+          "text": "Saber cada vez más"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Crear algo que inspire"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar a alguien a mejorar"
+        },
+        {
+          "profile": "Social",
+          "text": "Colaborar, participar o fomentar la unión del grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir, reparar o trabajar con herramientas o tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Hacer crecer una empresa o equipo"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Planificar, seguir pasos o mantener el orden"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar, escribir o transmitir ideas con claridad"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q1",
+      "stage": 2,
+      "question": "¿Qué actividad disfrutarías más?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Resolver un acertijo o problema lógico"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Crear una obra de arte o diseño"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Cuidar y acompañar a alguien"
+        },
+        {
+          "profile": "Social",
+          "text": "Participar en proyectos comunitarios"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Montar o reparar un aparato"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Liderar un equipo en un reto"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Organizar y planificar eventos"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Comunicar ideas en público"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q2",
+      "stage": 2,
+      "question": "¿Qué tipo de tarea te motiva más?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Investigar y descubrir verdades"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Innovar y crear cosas nuevas"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ayudar a personas en su vida diaria"
+        },
+        {
+          "profile": "Social",
+          "text": "Trabajar junto a un grupo diverso"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Construir soluciones técnicas"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Gestionar proyectos o negocios"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Mantener el orden y los procesos"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Expresar mensajes de forma efectiva"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q3",
+      "stage": 2,
+      "question": "¿Qué preferirías hacer en tu tiempo libre?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Resolver rompecabezas o sudokus"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Dibujar, grabar vídeos o diseñar"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Ser voluntario en una ONG"
+        },
+        {
+          "profile": "Social",
+          "text": "Organizar un evento comunitario"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Arreglar un dispositivo electrónico"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Planear un nuevo negocio"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Organizar tu agenda y plan semanal"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hacer un podcast o un canal de YouTube"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q4",
+      "stage": 2,
+      "question": "¿Qué frase te describe mejor?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Me gusta encontrar la lógica detrás de todo."
+        },
+        {
+          "profile": "Creativo",
+          "text": "Siempre tengo ideas para crear algo nuevo."
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Me importa que las personas se sientan bien."
+        },
+        {
+          "profile": "Social",
+          "text": "Me encanta colaborar y conectar personas."
+        },
+        {
+          "profile": "Técnico",
+          "text": "Me gusta entender cómo funcionan las cosas."
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Me motiva emprender proyectos propios."
+        },
+        {
+          "profile": "Organizado",
+          "text": "Me siento bien cuando todo está organizado."
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Me apasiona comunicarme con otros."
+        }
+      ]
+    },
+    {
+      "id": "stage2_q5",
+      "stage": 2,
+      "question": "¿Qué tipo de entorno prefieres para trabajar?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Un laboratorio o centro de investigación"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Un estudio de arte o diseño"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Un hospital o centro de apoyo"
+        },
+        {
+          "profile": "Social",
+          "text": "Una organización comunitaria"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Un taller o fábrica de tecnología"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Una empresa en crecimiento"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Una oficina de administración"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Una emisora de radio o agencia de comunicación"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q6",
+      "stage": 2,
+      "question": "¿Qué parte de un proyecto te entusiasma más?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Buscar datos y analizar la información"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Pensar ideas visuales y creativas"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Pensar en cómo ese proyecto puede ayudar a alguien"
+        },
+        {
+          "profile": "Social",
+          "text": "Coordinar a todas las personas implicadas"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Encargarte de la parte técnica o funcional"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Diseñar la estrategia y objetivos"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Organizar plazos y tareas en un calendario"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Redactar o presentar el proyecto"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q7",
+      "stage": 2,
+      "question": "¿Qué frase refleja mejor tu forma de pensar?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Todo tiene una explicación lógica"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Todo se puede reinventar"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Siempre hay alguien a quien apoyar"
+        },
+        {
+          "profile": "Social",
+          "text": "Juntos llegamos más lejos"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Si se puede construir, yo lo hago"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Veamos cómo hacerlo rentable"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Si no está bien organizado, no funciona"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "La clave está en cómo lo comuniques"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q8",
+      "stage": 2,
+      "question": "¿Qué te hace sentir útil?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Resolver problemas complicados"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Dar vida a ideas nuevas"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Escuchar o ayudar a alguien"
+        },
+        {
+          "profile": "Social",
+          "text": "Animar o coordinar a un grupo"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Reparar, montar o ajustar cosas"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Lanzar iniciativas o tomar decisiones"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Organizar y planificar el trabajo"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Hablar en público o escribir algo impactante"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q9",
+      "stage": 2,
+      "question": "¿Qué te resulta más fácil hacer?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Detectar errores en cálculos o lógica"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Imaginar soluciones creativas"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Mostrar empatía con personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Conectar ideas y personas"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Entender cómo funciona una máquina"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Pensar en cómo hacer crecer un negocio"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Crear orden a partir del caos"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Expresar ideas de forma clara"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q10",
+      "stage": 2,
+      "question": "¿Qué rol prefieres en un trabajo en grupo?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Analizar y tomar decisiones lógicas"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Diseñar o crear el producto"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Cuidar del bienestar del equipo"
+        },
+        {
+          "profile": "Social",
+          "text": "Fomentar el buen ambiente"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Hacer funcionar la parte técnica"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Proponer metas y liderar"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Controlar el tiempo y las tareas"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Presentar el proyecto"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q11",
+      "stage": 2,
+      "question": "¿Qué tema te resulta más apasionante?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Ciencias, lógica o investigación"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Arte, diseño o creatividad"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Salud, emociones o personas"
+        },
+        {
+          "profile": "Social",
+          "text": "Sociedad, cultura o diversidad"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Tecnología, energía o construcción"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Empresa, finanzas o marketing"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Organización, administración o planificación"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Medios, redes sociales o comunicación"
+        }
+      ]
+    },
+    {
+      "id": "stage2_q12",
+      "stage": 2,
+      "question": "¿Con cuál de estas herramientas te identificas más?",
+      "options": [
+        {
+          "profile": "Analítico",
+          "text": "Calculadora o fórmulas"
+        },
+        {
+          "profile": "Creativo",
+          "text": "Tableta gráfica o pincel"
+        },
+        {
+          "profile": "Cuidador",
+          "text": "Termómetro o diario personal"
+        },
+        {
+          "profile": "Social",
+          "text": "Agenda de contactos o dinámicas grupales"
+        },
+        {
+          "profile": "Técnico",
+          "text": "Llave inglesa o microchip"
+        },
+        {
+          "profile": "Empresarial",
+          "text": "Excel y presentaciones de negocio"
+        },
+        {
+          "profile": "Organizado",
+          "text": "Hoja de ruta o checklist"
+        },
+        {
+          "profile": "Comunicativo",
+          "text": "Micrófono o bloc de notas"
+        }
+      ]
+    }
+  ]
